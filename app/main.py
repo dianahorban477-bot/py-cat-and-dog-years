@@ -6,6 +6,8 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
         if age == 0:
             return 1
         if age < 9:
+            return 1
+        if age == 9:
             return 2
         age -= 9
         return 2 + age // step
