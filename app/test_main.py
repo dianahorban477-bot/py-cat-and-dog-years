@@ -17,17 +17,17 @@ def test_28_cat_age() -> None:
     assert get_human_age(28, 28) == [3, 2]
 
 
-def test_14_years():
+def test_14_years() -> None:
     assert get_human_age(14, 14) == [0, 0]
 
 
-def test_23_years():
+def test_23_years() -> None:
     assert get_human_age(23, 23) == [1, 1]
 
 
-def test_27_years():
+def test_27_years() -> None:
     assert get_human_age(27, 27) == [2, 2]
 
 
-def test_100_years():
+def test_100_years() -> None:
     assert get_human_age(100, 100) == [21, 17]
